@@ -1,0 +1,32 @@
+{
+    "name": "senquevila/scorify",
+    "description": "Score your classroom",
+    "authors": [
+        {
+            "name": "Jose Enrique Avila",
+            "email": "senquevila@gmail.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "version": "0.0.1-dev",
+    "time:": "2016-06-19 23:24:00",
+    "type": "library",
+    "require": {
+        "twbs/bootstrap": "^3.3"
+    },
+    "script": {
+        "post-install-cmd": [
+            "bash post-update-cmd.sh"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Scorify\\Modelo\\": "modelos/",
+            "Scorify\\Controlador\\": "controladores/",
+            "Scorify\\Vista\\": "vistas/",
+            "Scorify\\Plantilla\\": "plantillas/",
+            "Scorify\\Config\\": "config/",
+            "Scorify\\Core\\": "core/"
+        }
+    }
+}

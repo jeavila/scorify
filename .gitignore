@@ -1,0 +1,8 @@
+config/
+nbproject/
+vendor/
+.phpintel/
+
+.DS_Store
+
+*.lock
