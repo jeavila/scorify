@@ -16,17 +16,18 @@
     },
     "script": {
         "post-install-cmd": [
-            "bash post-update-cmd.sh"
+            "bash cmd/post-update-cmd.sh"
         ]
     },
     "autoload": {
         "psr-4": {
-            "Scorify\\Modelo\\": "modelos/",
-            "Scorify\\Controlador\\": "controladores/",
-            "Scorify\\Vista\\": "vistas/",
-            "Scorify\\Plantilla\\": "plantillas/",
+            "Scorify\\Model\\": "application/models/",
+            "Scorify\\Controller\\": "application/controllers/",
+            "Scorify\\View\\": "application/views/",
+            "Scorify\\Template\\": "application/templates/",
             "Scorify\\Config\\": "config/",
-            "Scorify\\Core\\": "core/"
+            "Scorify\\Core\\": "core/",
+            "Scorify\\Helper\\": "helper/"
         }
     }
 }

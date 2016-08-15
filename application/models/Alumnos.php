@@ -1,9 +1,9 @@
 <?php
-namespace Scorify\Modelo;
+namespace Scorify\Model;
 
-use Scorify\Core\Modelo as Modelo;
+use Scorify\Core\Model as Model;
 
-class Alumnos extends Modelo
+class Alumnos extends Model
 {
 	protected $id;
 	protected $nombre;

@@ -11,7 +11,7 @@ namespace Scorify\Core;
 use Scorify\Config\Database as Database;
 use PDO;
 
-class Conexion 
+class Connection 
 {
     private static $factory;
     private $db;
@@ -19,7 +19,7 @@ class Conexion
     public static function getFactory() 
     {      
         if (!self::$factory) {
-            self::$factory = new Conexion();
+            self::$factory = new Connection();
         }
 
         return self::$factory;

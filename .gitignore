@@ -2,6 +2,7 @@ config/
 nbproject/
 vendor/
 .phpintel/
+public/bootstrap/
 
 .DS_Store
 

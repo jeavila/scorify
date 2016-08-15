@@ -1,0 +1,15 @@
+.error-msg {
+  /*background-color: red;*/
+  margin-top: 20px;
+  padding: 5px 5px 5px 5px;
+  font-size: 1em;
+  border: 3px solid red;
+}
+
+.success-msg {
+  /*background-color: gree;*/
+  margin-top: 20px;
+  padding: 5px 5px 5px 5px;
+  font-size: 1em;
+  border: 3px solid green;
+}
